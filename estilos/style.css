@@ -13,9 +13,10 @@ body {
 
 #container {
     position: relative;
+    top: 63px;
     margin: auto;
-    width: 280px;
-    height: 500px;
+    width: 250px;
+    height: 504px;
     background-image: url('../imagens/frame-iphone.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -23,10 +24,11 @@ body {
 }
 iframe {
     position: absolute;
-    width: 180px;
-    height: 369px;
+    width: 213px;
+    height: 376px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border: 0;
     
 }
