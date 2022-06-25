@@ -47,7 +47,6 @@ section#menu {
     top: 50%;
     left: 90%;
     transform: translate(-50%, -50%);
-    margin: auto;
 }
 
 section#menu img {
