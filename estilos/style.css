@@ -24,12 +24,13 @@ main {
 
 section#iphone {
     position: absolute;
-    height: 627px;
-    width: 311px;
+    height: 500px;
+    width: 248px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url('../imagens/frame-iphone.png');
+    background-size: 248px 500px;
 }
 
 section#iphone iframe {
@@ -37,9 +38,9 @@ section#iphone iframe {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 466px;
-    width: 262px;
-    margin-top: 3px;
+    height: 372px;
+    width: 213px;
+    margin-top: 2px;
 }
 
 section#menu {
@@ -47,12 +48,13 @@ section#menu {
     top: 50%;
     left: 90%;
     transform: translate(-50%, -50%);
+    margin: auto;
 }
 
 section#menu img {
-    
-    height: 44px;
-    width: 44px;
+    display: block;
+    height: 48px;
+    width: 48px;
     border-radius: 100px;
 }
 
